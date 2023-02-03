@@ -24,7 +24,6 @@ a[i]=atoi(argv[i+2]);}
     selectionSort(a,N);
     
     }
-  else printf("Help\n");
   return 0;
 }
 
