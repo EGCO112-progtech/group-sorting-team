@@ -19,7 +19,7 @@ int main(int argc, char *argv[]) {
     insertion(a, N);
     printf("\n");
 
-  } else if (strcmp(argv[1], "yelectionsort") == 0) {
+  } else if (strcmp(argv[1], "selection") == 0) {
     display(a, N);
     yelectionsort(a, N);
   }
