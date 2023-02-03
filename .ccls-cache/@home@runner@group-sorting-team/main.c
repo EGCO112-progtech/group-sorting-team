@@ -24,7 +24,7 @@ a[i]=atoi(argv[i+2]);}
     yelectionsort(a,N);
     
     }
-  printf("\n");
+
    display(a,N);
   
   return 0;
