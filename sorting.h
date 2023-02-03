@@ -10,14 +10,25 @@ void display(int a[],int n){
   
 }
 
-void selectionSort(int data[], int length) 
-{ 
-	int i, j, m, mi; 
-	
-     display(data,length);
-     
-	
-} 
+void yelectionsort(int a[], int n) {
+  int i, j, m, k;
+  for (j=0; j < n-1; j++) {
+    m = a[j];
+    k = j;
+    for (i = j + 1; i < n; i++) {
+      if (m < a[i]) {
+        m = a[i];
+        k = i;
+        swap(&a[j], &a[k]);
+        display(a,n);
+      }
+    }
+    printf("\n");
+    //swap(&a[j], &a[k]);
+    display(a, n);
+  }
+  }
+
 
 
 
