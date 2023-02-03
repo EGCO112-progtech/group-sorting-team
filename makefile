@@ -1,12 +1,15 @@
-compile: main.c
-	gcc main.c -o bubble
+compile: main.c 
+	 gcc  main.c -o sort
+
 
 runSelection: selection
 	./selection
 
-run: bubble
-	./bubble
+
+run: sort
+	 ./sort
 
 
-clean: bubble
-	rm bubble
+clean: sort
+	 rm sort
+
