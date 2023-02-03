@@ -1,8 +1,7 @@
-#define N 6
 #include <stdio.h>
 #include <stdlib.h>
 #include "sorting.h"
-
+#include <string.h>
 int main(int argc ,char *argv[]) {
   int i,*a,N;
 int j=0,new_number;
@@ -16,6 +15,6 @@ a[i]=atoi(argv[i+1]);
   else if(strcmp(argv[2],"selectionsort")==0){display(a,N); selectionSort(a,N); display(a,N);}
   else printf("Bruh");
   return 0;
-}
+}}
 
 
