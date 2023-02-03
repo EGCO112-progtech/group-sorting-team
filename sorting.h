@@ -21,8 +21,22 @@ void selectionSort(int data[], int length)
 
 
 
-void insertion(int a[],int n){
+void insertion(int x[],int n){
 
+int j, i;
+  for(j=1;j<n;j++){
+  int insert=x[j];
+  for(i=j-1;i>=0;i--){
+    if(insert<x[i])
+      break;
+    else
+      x[i+1]=x[i];
+    display(x,n);
+    }
+  x[i+1]=insert;
+    display(x,n);
+    printf("\n");
+  }
 
 }
 
@@ -45,7 +59,6 @@ for(j=0;j<n-i;j++){
   sorted = 1;}
     display(a,n);
  }printf("\n");
-    printf("\n");
     if(sorted==0) break;}
   
 }
