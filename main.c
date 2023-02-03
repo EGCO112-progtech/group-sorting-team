@@ -29,3 +29,9 @@ a[i]=atoi(argv[i+2]);}
 }
 
 
+a[i]=atoi(argv[i+1]);
+printf(“a[%d]=%d”,i, a[i]);
+
+}
+
+} 

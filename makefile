@@ -1,8 +1,10 @@
 compile: main.c 
 	 gcc  main.c -o sort
 
+
 runSelection: selection
-	  ./selection
+	./selection
+
 
 run: sort
 	 ./sort
@@ -10,3 +12,4 @@ run: sort
 
 clean: sort
 	 rm sort
+
