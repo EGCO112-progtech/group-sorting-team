@@ -40,7 +40,7 @@ int sorted;
   sorted=0;
   for(i=1;i<n;i++){
 for(j=0;j<n-i;j++){
-  if(a[j]>a[j+1]){
+  if(a[j]<a[j+1]){
   swap(&a[j],&a[j+1]);
   sorted = 1;}
     display(a,n);
