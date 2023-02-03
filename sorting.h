@@ -18,14 +18,14 @@ void yelectionsort(int a[], int n) {
       if (m < a[i]) {
         m = a[i];
         k = i;
-        swap(&a[j], &a[k]);
-        display(a, n);
-      }
+       
     }
-    printf("\n");
-    // swap(&a[j], &a[k]);
-    display(a, n);
   }
+  
+     swap(&a[j], &a[k]);
+    display(a, n);
+    printf("\n");
+    }
 }
 
 void insertion(int x[], int n) {
