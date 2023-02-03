@@ -15,7 +15,7 @@ void yelectionsort(int a[], int n) {
   for (j=0; j < n-1; j++) {
     m = a[j];
     k = j;
-    for (i = j + 1; i < n; i++) {
+    for (i=j + 1; i < n; i++) {
       if (m < a[i]) {
         m = a[i];
         k = i;
