@@ -22,6 +22,7 @@ int main(int argc, char *argv[]) {
   } else if (strcmp(argv[1], "selection") == 0) {
     display(a, N);
     yelectionsort(a, N);
+     printf("\n");
   }
 
   display(a, N);
