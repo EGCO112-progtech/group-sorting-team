@@ -35,14 +35,18 @@ void swap(int *a,int *b){
 }
 
 void bubbleSort(int a[],int n){
-
 int i,j;
 int sorted;
-// how may pair to compare?
-for(j=1;j<=n-1;j++){
- 
-  display(a,n);
- }
+  sorted=0;
+  for(i=1;i<n;i++){
+for(j=0;j<n-i;j++){
+  if(a[j]<a[j+1]){
+  swap(&a[j],&a[j+1]);
+  sorted = 1;}
+    display(a,n);
+ }printf("\n");
+    printf("\n");
+    if(sorted==0) break;}
   
 }
 
